@@ -79,6 +79,10 @@
             <updatePolicy>never</updatePolicy>
           </snapshots>
         </repository>
+        <repository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
       </repositories>
 
       <pluginRepositories>
@@ -95,6 +99,10 @@
             <enabled>true</enabled>
             <updatePolicy>never</updatePolicy>
           </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
         </pluginRepository>
       </pluginRepositories>
 
