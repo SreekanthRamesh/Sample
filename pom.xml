@@ -4,7 +4,6 @@
   <artifactId>sample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Sample</name>
-
     <dependencies>
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -23,12 +22,9 @@
     <scope>test</scope>
 </dependency>
     </dependencies>
-
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
-
     <build>
         <plugins>
             <plugin>
@@ -37,7 +33,6 @@
             </plugin>
         </plugins>
     </build>
-
     <repositories>
         <repository>
             <id>spring-releases</id>
